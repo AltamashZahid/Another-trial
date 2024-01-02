@@ -1,0 +1,85 @@
+nav{
+    background-color: rgb(184, 184, 254);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin: -8px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.logo img{
+    height: 57px;
+    width: 70px;
+    padding: -5px 0px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icons span{
+    cursor: pointer;
+    padding: 5px;
+}
+nav ul li{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 81.53px;
+    display: flex;
+    display: inline-block;
+    align-items: top;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    color: black;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 1px;
+    height: 3px;
+    background-color: red ;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+}
+nav ul li a:hover::after{
+    width: 24px;
+    transition: 0.3s;
+}
+.entry{
+    margin: 30px;
+}
+#btn{
+    margin-right: 27px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: lightskyblue;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 13px;
+    transition: all 0.4s;
+}
+#btn:hover{
+    color: red;
+}
